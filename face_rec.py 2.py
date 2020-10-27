@@ -9,45 +9,6 @@ video_capture = cv2.VideoCapture(0)
 
 #load some images you want to recognise
 
-Aakanksha_image = face_recognition.load_image_file("Aakanksha.jpg")
-Aakanksha_face_encoding = face_recognition.face_encodings(Aakanksha_image)[0]
-
-Aditi_image = face_recognition.load_image_file("Aditi.jpg")
-Aditi_face_encoding = face_recognition.face_encodings(Aditi_image)[0]
-
-Aditya_image = face_recognition.load_image_file("Aditya.jpg")
-Aditya_face_encoding = face_recognition.face_encodings(Aditya_image)[0]
-
-Priya_image = face_recognition.load_image_file("Priya.jpg")
-Priya_face_encoding = face_recognition.face_encodings(Priya_image)[0]
-
-Reena_image = face_recognition.load_image_file("Reena.jpg")
-Reena_face_encoding = face_recognition.face_encodings(Reena_image)[0]
-
-Sanjay_image = face_recognition.load_image_file("Sanjay.jpg")
-Sanjay_face_encoding = face_recognition.face_encodings(Sanjay_image)[0]
-
-Vikas_image = face_recognition.load_image_file("Vikas.jpg")
-Vikas_face_encoding = face_recognition.face_encodings(Vikas_image)[0]
-
-Vaibhav_image = face_recognition.load_image_file("Vaibhav.jpg")
-Vaibhav_face_encoding = face_recognition.face_encodings(Vaibhav_image)[0]
-
-Vivek_image = face_recognition.load_image_file("Vivek.jpg")
-Vivek_face_encoding = face_recognition.face_encodings(Vivek_image)[0]
-
-Ansh_image = face_recognition.load_image_file("Ansh.jpg")
-Ansh_face_encoding = face_recognition.face_encodings(Ansh_image)[0]
-
-Anchala_image = face_recognition.load_image_file("Anchala.jpg")
-Anchala_face_encoding = face_recognition.face_encodings(Anchala_image)[0]
-
-Alok_image = face_recognition.load_image_file("Alok.jpg")
-Alok_face_encoding = face_recognition.face_encodings(Alok_image)[0]
-
-Manoj_image = face_recognition.load_image_file("Manoj.jpg")
-Manoj_face_encoding = face_recognition.face_encodings(Manoj_image)[0]
-
 Abhimanyu_image = face_recognition.load_image_file("Abhimanyu.jpg")
 Abhimanyu_face_encoding = face_recognition.face_encodings(Abhimanyu_image)[0]
 
@@ -56,37 +17,13 @@ Abhinav_face_encoding = face_recognition.face_encodings(Abhinav_image)[0]
 
 #create arrays of known_face_encodings & names
 known_face_encodings = [
-    Aakanksha_face_encoding,
-    Aditi_face_encoding,
-    Aditya_face_encoding,
-    Priya_face_encoding,
-    Reena_face_encoding,
-    Sanjay_face_encoding,
-    Vikas_face_encoding,
-    Vaibhav_face_encoding,
-    Vivek_face_encoding,
-    Ansh_face_encoding,
-    Anchala_face_encoding,
-    Alok_face_encoding,
-    Manoj_face_encoding,
+  
     Abhimanyu_face_encoding,
     Abhinav_face_encoding
 ]
 
 known_face_names = [
-    "Aakanksha",
-    "Aditi",
-    "Aditya",
-    "Priya",
-    "Reena",
-    "Sanjay",
-    "Vikas",
-    "Vaibhav",
-    "Vivek",
-    "Ansh",
-    "Anchala",
-    "Alok",
-    "Manoj",
+
     "Abhimanyu",
     "Abhinav"
 ]
