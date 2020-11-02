@@ -16,7 +16,6 @@ import face_recognition
 import cv2
 import numpy as np
 import pyautogui
-import pywhatkit as kit
 from requests import get
 
 engine = pyttsx3.init('sapi5')
